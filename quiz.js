@@ -1,8 +1,5 @@
 
 
-var myModal = document.getElementById('myModal')
-var myInput = document.getElementById('myInput')
-
 myModal.addEventListener('shown.bs.modal', function () {
   myInput.focus()
 })
@@ -19,7 +16,7 @@ function cantidadPreguntas(cantidadPreguntas) {
         document.getElementById("button").style.display = "none";
         
     } else {
-        alert("Por favor digite un valor entre 1 y 5");
+        alert("Por favor digite un valor entre 5 y 20");
     }
 }
 
